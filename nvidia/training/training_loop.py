@@ -15,11 +15,11 @@ import psutil
 import PIL.Image
 import numpy as np
 import torch
-import dnnlib
-from torch_utils import misc
-from torch_utils import training_stats
-from torch_utils.ops import conv2d_gradfix
-from torch_utils.ops import grid_sample_gradfix
+import nvidia.dnnlib as dnnlib
+from nvidia.torch_utils import misc
+from nvidia.torch_utils import training_stats
+from nvidia.torch_utils.ops import conv2d_gradfix
+from nvidia.torch_utils.ops import grid_sample_gradfix
 
 import legacy
 from metrics import metric_main

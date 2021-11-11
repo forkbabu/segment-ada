@@ -14,14 +14,14 @@ import json
 import tempfile
 import copy
 import torch
-import dnnlib
+import nvidia.dnnlib as dnnlib
 
 import legacy
 from metrics import metric_main
 from metrics import metric_utils
-from torch_utils import training_stats
-from torch_utils import custom_ops
-from torch_utils import misc
+from nvidia.torch_utils import training_stats
+from nvidia.torch_utils import custom_ops
+from nvidia.torch_utils import misc
 
 #----------------------------------------------------------------------------
 

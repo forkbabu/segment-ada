@@ -14,7 +14,7 @@ import copy
 import uuid
 import numpy as np
 import torch
-import dnnlib
+import nvidia.dnnlib as dnnlib
 
 #----------------------------------------------------------------------------
 

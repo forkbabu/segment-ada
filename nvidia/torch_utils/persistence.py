@@ -38,7 +38,7 @@ def persistent_class(orig_class):
 
     Example:
 
-        from torch_utils import persistence
+        from nvidia.torch_utils import persistence
 
         @persistence.persistent_class
         class MyNetwork(torch.nn.Module):

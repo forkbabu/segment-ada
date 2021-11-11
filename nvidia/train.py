@@ -15,12 +15,12 @@ import re
 import json
 import tempfile
 import torch
-import dnnlib
+import nvidia.dnnlib as dnnlib
 
 from training import training_loop
 from metrics import metric_main
-from torch_utils import training_stats
-from torch_utils import custom_ops
+from nvidia.torch_utils import training_stats
+from nvidia.torch_utils import custom_ops
 
 #----------------------------------------------------------------------------
 

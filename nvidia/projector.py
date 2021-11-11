@@ -19,7 +19,7 @@ import PIL.Image
 import torch
 import torch.nn.functional as F
 
-import dnnlib
+import nvidia.dnnlib as dnnlib
 import legacy
 
 def project(

@@ -10,7 +10,7 @@ import os
 import time
 import json
 import torch
-import dnnlib
+import nvidia.dnnlib as dnnlib
 
 from . import metric_utils
 from . import frechet_inception_distance

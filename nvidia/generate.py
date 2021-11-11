@@ -13,7 +13,7 @@ import re
 from typing import List, Optional
 
 import click
-import dnnlib
+import nvidia.dnnlib as dnnlib
 import numpy as np
 import PIL.Image
 import torch
